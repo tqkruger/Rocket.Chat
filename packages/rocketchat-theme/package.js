@@ -36,6 +36,7 @@ Package.onUse(function(api) {
 
 	// Compiled stylesheets
 	api.addFiles('client/main.less', 'client');
+	api.addFiles('client/new.css', 'client');
 
 	// Run-time stylesheets
 	api.addAssets('server/colors.less', 'server');
